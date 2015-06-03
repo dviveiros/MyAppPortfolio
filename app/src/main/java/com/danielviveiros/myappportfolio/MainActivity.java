@@ -1,8 +1,8 @@
 package com.danielviveiros.myappportfolio;
 
 import android.content.Context;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -11,7 +11,7 @@ import android.widget.Toast;
 /**
  * Activity that hosts the main layout for my app
  */
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +59,7 @@ public class MainActivity extends ActionBarActivity {
      * Handles the click on Library App button
      */
     public void onLibraryAppClick( View view ) {
+        //changing
         showToast( "This button will launch Library App");
     }
 
